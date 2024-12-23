@@ -1,0 +1,30 @@
+Day 3 
+👉🏻 Docker 
+-> container technology example Docker
+-> hub.docker.com will give free OS images
+-> container management project
+-> docker pull 
+-> docker image 
+-> docker ps
+
+👉🏻Linux
+-> Whenever we create user it stores user file and create its ID
+-> memory information stored in /proc/meminfo
+4:38 pm 
+-> grep command 
+--> grep - c show how many times
+--> this command will search for pattern
+-> users information stored in /etc/passed
+-> useradd Yash will add new user 
+-> if we know the numbers of times loop win run we will use while whereas in we don't we will use for loop
+-> for loop
+--> for variable in printable ; done
+--> whenever we write command inside command it should be in back quotes``
+-> linux keep a record of everything in a record file in secure file
+-> Alt+F3,F4,F5 new login will pop up
+-> create a shell program to check if password attempt is exceeded and put a alarm of it
+-> usermod commad
+
+👉🏻Regex
+-> regex101.com
+
