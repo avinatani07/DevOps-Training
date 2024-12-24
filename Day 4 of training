@@ -1,0 +1,31 @@
+Day 4
+👉🏻Docker project to start and stop
+-> docker run -it --name os1 redhat/ubi8 to run the docker image
+-> installing python 
+-->yum install python 3
+-> installing flask
+-->pip3 install flask
+--> to check pip3 list 
+-> 0.0.0.0 is IP for any anyone can host this
+->use of runtime,buildtime
+->CMD
+->WORKFIN
+-> Inspect command in docker
+-> -T for target image 
+--> docker build -t lwweb:v1 /myapp/
+-> 1 container is equal to 1 OS is equal to 1 server 
+-> as soon as program closes the OS also close
+
+👉🏻 Networking 
+-> NAT/PAT
+-> two types IP public and private. Public is free and private is chargeable
+-> to connect internet we need public with private IP we cannot connect
+-> private IP ranges 
+-> netstat -rn
+-> ip route show
+-> ip route list command
+-> connecting private network with gateway to connect to internet
+-> route -n to show routing table
+-> route del -net 0.0.0.0
+-> if a container is installed in root so root does not have unlimited power
+-> docker run -it -privileged Ubuntu:14.04 will give unlimited power to container
